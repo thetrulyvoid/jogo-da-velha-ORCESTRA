@@ -101,7 +101,7 @@ function Singleplayer() {
       <h1 className={styles.title}>Jogo da Velha - {playerOneName} vs {playerTwoName}</h1>
       {playerOneSymbol === null && (
         <div className={styles.symbolChoice}>
-          <h2>Escolha o símbolo do {playerOneName}</h2>
+          <h2>Antes de Jogar: Escolha o símbolo do {playerOneName}</h2>
           <button onClick={() => handleSymbolChoice("X")}>X</button>
           <button onClick={() => handleSymbolChoice("O")}>O</button>
         </div>
