@@ -1,0 +1,63 @@
+* {
+    margin: 50;
+    padding: 0;
+    background-color: #54C392;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jogo {
+    font-size: 50px;
+}
+
+.modoJogo {
+    font-size: 30px;
+}
+
+.modes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.singleButton,
+.multiButton {
+    width: 420px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: aqua;
+    border: none;
+    transition: transform 200ms ease-in-out;
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.singleButton:hover,
+.multiButton:hover {
+    transform: scale(1.05);
+}
+
+.playerNames {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.playerNames span {
+    color: #f44336;
+    margin-right: 20px;
+}
+
+.playerNames span:nth-child(2) {
+    color: #060058;
+}
